@@ -17,7 +17,7 @@ class SplashController extends GetxController {
   }
 
   Future<void> _start() async {
-    await Future.delayed(const Duration(seconds: 5));
+    await Future.delayed(const Duration(minutes: 5));
 
     final apkUrl = await appReleaseApi();
 

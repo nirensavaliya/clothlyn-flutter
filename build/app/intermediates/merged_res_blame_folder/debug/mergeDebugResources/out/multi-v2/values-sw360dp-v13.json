@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.app.clothlyn.app-mergeDebugResources-57:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dreamworld/.gradle/caches/9.3.1/transforms/844a7966a1fda987f7ecfd1e09702b8b/transformed/preference-1.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}

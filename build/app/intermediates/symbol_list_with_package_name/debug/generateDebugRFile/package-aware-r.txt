@@ -1,0 +1,5 @@
+com.app.clothlyn
+drawable launch_background
+mipmap ic_launcher
+style LaunchTheme
+style NormalTheme

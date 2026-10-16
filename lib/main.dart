@@ -15,7 +15,7 @@ final mediaStorePlugin = MediaStore();
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if (Platform.isAndroid || Platform.isIOS) {
-    await Firebase.initializeApp();
+    // await Firebase.initializeApp();
     try {
       await RemoteConfigService().init().timeout(const Duration(seconds: 4));
     } catch (_) {}
@@ -23,7 +23,7 @@ void main() async {
   GetStorage.init();
   if (Platform.isAndroid) {
     await MediaStore.ensureInitialized();
-    MediaStore.appFolder = "SitaramClothing";
+    MediaStore.appFolder = "Clothlyn";
 
   }
   runApp(const MyApp());
@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
         statusBarBrightness: Brightness.dark,
       ),
       child: GetMaterialApp(
-        title: 'Sitaram Clothing',
+        title: 'Clothlyn',
         debugShowCheckedModeBanner: false,
         getPages: AppPages.routes,
         initialRoute: AppRoutes.splashScreen,

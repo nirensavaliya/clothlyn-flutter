@@ -7,6 +7,7 @@
       "name": "clothlyn",
       "version": "1.0.0+1",
       "dependencies": [
+        "change_app_package_name",
         "cherry_toast",
         "cupertino_icons",
         "device_info_plus",
@@ -72,6 +73,11 @@
         "test_api",
         "vector_math"
       ]
+    },
+    {
+      "name": "change_app_package_name",
+      "version": "1.5.0",
+      "dependencies": []
     },
     {
       "name": "screen_protector",

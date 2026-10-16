@@ -1,0 +1,996 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:24:5-61:19
+INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+MERGED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-32:19
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:5-26:19
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:5-26:19
+MERGED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-17:19
+MERGED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-17:19
+MERGED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:8:5-24:19
+MERGED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cfa7c4780fa7249ef077760ed2c841cb/transformed/jetified-firebase-analytics-23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cfa7c4780fa7249ef077760ed2c841cb/transformed/jetified-firebase-analytics-23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5ce320d736a57ef2b0c3a3f3e1705835/transformed/jetified-play-services-measurement-sdk-23.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5ce320d736a57ef2b0c3a3f3e1705835/transformed/jetified-play-services-measurement-sdk-23.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:22:5-39:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/80cc5ddca2ad4cb13fb6141feedc0753/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/80cc5ddca2ad4cb13fb6141feedc0753/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/102ef6d79ad09f85ab850549afce3a9d/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/102ef6d79ad09f85ab850549afce3a9d/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b6f756b0c0aafece93f655f047d24a44/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b6f756b0c0aafece93f655f047d24a44/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:10:5-16:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:10:5-16:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d0e08b9cbcca67aec87e33f48834cd79/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d0e08b9cbcca67aec87e33f48834cd79/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d15a4a60274690ecbf49c90c3e11a72/transformed/jetified-play-services-measurement-base-23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d15a4a60274690ecbf49c90c3e11a72/transformed/jetified-play-services-measurement-base-23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6c9685bed3fb80fd98990b50fdb77a5f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6c9685bed3fb80fd98990b50fdb77a5f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c3f04dda49799e87878dec947222d514/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c3f04dda49799e87878dec947222d514/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0578b0b7a71fdc335058a8ae85746904/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0578b0b7a71fdc335058a8ae85746904/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8a89c37b2baf53993aace2924fa0a518/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8a89c37b2baf53993aace2924fa0a518/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/382c9e8d1e71c594c24a8670b07d4cb3/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/382c9e8d1e71c594c24a8670b07d4cb3/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:1:1-73:12
+MERGED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:1:1-73:12
+INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:device_info_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/device_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:file_picker] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_cropper] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_cropper/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:jni_flutter] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/jni_flutter/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:jni] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/jni/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:media_store_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/media_store_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:mobile_scanner] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/mobile_scanner/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-13:12
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-28:12
+MERGED from [:package_info_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/package_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-19:12
+MERGED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-14:12
+MERGED from [:screen_protector] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/844a7966a1fda987f7ecfd1e09702b8b/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-camera2-pipe:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/197742e0841c4070208e02c22307ba55/transformed/jetified-camera-camera2-pipe-1.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-lifecycle:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5a4ef17ba00d1ccf65d9f929f732f977/transformed/jetified-camera-lifecycle-1.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/19171c240830a146f2fb4df06f778cee/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2504eaa180e9c77dbb21a59c475b6f55/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/4b3f1b4263da45033ac484f5f6e42427/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/567aaa7a33cf32fe2d55d470ff46dbfd/transformed/browser-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5c0c6d2c2549f3c00e885b029b4fbd67/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9cc55e7a912efaa4ebcd88fd9469f42a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b8d925328c6736df7538b9f57e33bd06/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/87bac23c1f0dc24212966258554e243a/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cfa7c4780fa7249ef077760ed2c841cb/transformed/jetified-firebase-analytics-23.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5ce320d736a57ef2b0c3a3f3e1705835/transformed/jetified-play-services-measurement-sdk-23.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/65962953168ea3e1c471fb4eb53d97f9/transformed/jetified-vision-interfaces-16.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d38b1e14845e7aaf8f6a7181c526963e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37b99f20d9015eaf5370a0a763b3e1ae/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.13.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e0ec7bc1a8b2fc495b295e679214ac36/transformed/jetified-activity-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/80cc5ddca2ad4cb13fb6141feedc0753/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0b0fc15bd7c821e08b0c79f22e0b66e1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cc550f199c98818a146b1512e4d58498/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/167e88f76a6b9483ea09cedaf04998e4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37fa83ab367b31502b67be529566ae1c/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2e8e7464e8f73e381da3d0a47ac50b50/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/726b3f438765afc4787c59adfa80ddfa/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e0c4ce2ef71e613cd2ca6b2c7f78e257/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7017dfd7b9d5e1366780bfbdb70f239a/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/59c28cf1e76e0f1fbe1109b1af3d8921/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e77c11d37c0aaef255d5efb2818777cb/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9f736eeb593d27035b4d9aa9d80a0c22/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f2b845d4dcf91afedb7da23ea73b1e75/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/14c8f34ff6e335c689d05a0702efa8b9/transformed/jetified-navigationevent/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e47371c91db5fa01c73c877e14db4b90/transformed/jetified-datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a3095a734205fb0ab3d68261f65dec0f/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/209ace6cd5ccc537781d5627908f9c6a/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7d405284b16628e89918efc4e8cf260a/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2da36eb7c197b2e97c4e4ed63c1ef98a/transformed/jetified-ads-adservices-java-1.1.0-beta11/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/102ef6d79ad09f85ab850549afce3a9d/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c696d03925bbe41d0474f43b5628434/transformed/jetified-firebase-installations-interop-17.3.0/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b6f756b0c0aafece93f655f047d24a44/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d0e08b9cbcca67aec87e33f48834cd79/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d15a4a60274690ecbf49c90c3e11a72/transformed/jetified-play-services-measurement-base-23.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6c9685bed3fb80fd98990b50fdb77a5f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c3f04dda49799e87878dec947222d514/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/ad492e6b5a269f57ce9ea768766e4861/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.13.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bd6df05b192dca0f81fb01f2a42b616c/transformed/jetified-activity-1.13.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/df748ba05d95d7cd7534739969b2c46f/transformed/jetified-core-ktx-1.18.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cfcd81bc40514244cbf4b9628afaff5d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e44602cf271181346774c5cd716e8b6e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f107d6a7961d0557f30c96e93e5ad727/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1b073e3e880106e72651a80113715238/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e153853d74be50eae1432334c1ae4118/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8d5d8f713d2d32934e3a8ed114dd70c5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/77a3f1575e7b312343ca9289b97351fc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/85537b504d7db8f09245985da87d1852/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/4c7649c73d23c95b5e5dadab58229d7b/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.exifinterface:exifinterface:1.4.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/342ec6b5c30000f498728216da0df861/transformed/exifinterface-1.4.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2d80cfe52e501553cdd49bdee1a4a03/transformed/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/76675d77585d769268dfc6dcd9ba86c0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0578b0b7a71fdc335058a8ae85746904/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c9e65b12c8d8774de2925ff8ddba809f/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-config-interop:16.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bd54b999a208aa32053712e50a5ac434/transformed/jetified-firebase-config-interop-16.0.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e97d9d4f4dccf6c2030b5ec731a13882/transformed/jetified-firebase-encoders-json-18.0.1/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/65790458ec97fad434c341d6470b975d/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-backported-fixes:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/274ea9fd2778a4d04d89a8ccbbb85588/transformed/jetified-core-backported-fixes-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bc6356e009f0d7c6f742b22e17c1d3be/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a8f233d60159c24c8c775dd85364c344/transformed/jetified-firebase-components-19.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8a89c37b2baf53993aace2924fa0a518/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.camera.featurecombinationquery:featurecombinationquery:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/42a80111059a7604b598e99b5be27d64/transformed/jetified-featurecombinationquery-1.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f5b00b12f5794581d4df1fc7dcd97c07/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.tracing:tracing-ktx:1.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0783b9e4ee83d2298b249ab8cb250915/transformed/jetified-tracing-ktx-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-android:1.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6e8d2152402ccdaae53a38511883f223/transformed/jetified-tracing/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5e03df6762559b0d784b66a31794fba9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a486ca47c17f3a3f77cae989d788ba2e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37ea8538cbbd3ddb143ce0f7d93d4fc6/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8fb892304db4f6d4930b789218732b9c/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9ddd37b0314bca02541fea2368136e81/transformed/jetified-runtime-annotation/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.Yalantis:ucrop:2.2.11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2faf0747a27b9a417c49c11cfdbdd9a9/transformed/jetified-ucrop-2.2.11/AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f947cba3184b338e96ec3af05da65465/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/382c9e8d1e71c594c24a8670b07d4cb3/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:2:5-51
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-feature#android.hardware.camera
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:3:5-5:36
+MERGED from [:mobile_scanner] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/mobile_scanner/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-11:36
+MERGED from [:mobile_scanner] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/mobile_scanner/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:5:9-33
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:4:9-47
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:7:5-78
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:8:5-64
+MERGED from [:mobile_scanner] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/mobile_scanner/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-65
+MERGED from [:mobile_scanner] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/mobile_scanner/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:9:5-76
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-76
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:10:5-75
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-75
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:11:5-13:38
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-10:38
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-10:38
+	android:maxSdkVersion
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:13:9-35
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:12:9-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:15:5-17:38
+	android:maxSdkVersion
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:17:9-35
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:16:9-65
+queries
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:18:5-23:15
+MERGED from [:file_picker] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:15
+MERGED from [:file_picker] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-13:15
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:19:9-22:18
+action#android.intent.action.VIEW
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:20:21-62
+data
+ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:21:13-44
+	android:scheme
+		ADDED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/AndroidManifest.xml:21:19-41
+uses-sdk
+INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+MERGED from [:device_info_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/device_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/device_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_cropper/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_cropper/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:jni_flutter] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/jni_flutter/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:jni_flutter] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/jni_flutter/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:jni] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/jni/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:jni] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/jni/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:media_store_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/media_store_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:media_store_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/media_store_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:mobile_scanner] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/mobile_scanner/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:mobile_scanner] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/mobile_scanner/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
+MERGED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
+MERGED from [:package_info_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/package_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/package_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/permission_handler_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:screen_protector] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:screen_protector] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/844a7966a1fda987f7ecfd1e09702b8b/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/844a7966a1fda987f7ecfd1e09702b8b/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2-pipe:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/197742e0841c4070208e02c22307ba55/transformed/jetified-camera-camera2-pipe-1.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2-pipe:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/197742e0841c4070208e02c22307ba55/transformed/jetified-camera-camera2-pipe-1.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5a4ef17ba00d1ccf65d9f929f732f977/transformed/jetified-camera-lifecycle-1.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5a4ef17ba00d1ccf65d9f929f732f977/transformed/jetified-camera-lifecycle-1.6.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/19171c240830a146f2fb4df06f778cee/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/19171c240830a146f2fb4df06f778cee/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2504eaa180e9c77dbb21a59c475b6f55/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2504eaa180e9c77dbb21a59c475b6f55/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/4b3f1b4263da45033ac484f5f6e42427/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/4b3f1b4263da45033ac484f5f6e42427/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/567aaa7a33cf32fe2d55d470ff46dbfd/transformed/browser-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/567aaa7a33cf32fe2d55d470ff46dbfd/transformed/browser-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5c0c6d2c2549f3c00e885b029b4fbd67/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5c0c6d2c2549f3c00e885b029b4fbd67/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9cc55e7a912efaa4ebcd88fd9469f42a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9cc55e7a912efaa4ebcd88fd9469f42a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b8d925328c6736df7538b9f57e33bd06/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b8d925328c6736df7538b9f57e33bd06/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/87bac23c1f0dc24212966258554e243a/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/87bac23c1f0dc24212966258554e243a/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cfa7c4780fa7249ef077760ed2c841cb/transformed/jetified-firebase-analytics-23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cfa7c4780fa7249ef077760ed2c841cb/transformed/jetified-firebase-analytics-23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5ce320d736a57ef2b0c3a3f3e1705835/transformed/jetified-play-services-measurement-sdk-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5ce320d736a57ef2b0c3a3f3e1705835/transformed/jetified-play-services-measurement-sdk-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/65962953168ea3e1c471fb4eb53d97f9/transformed/jetified-vision-interfaces-16.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/65962953168ea3e1c471fb4eb53d97f9/transformed/jetified-vision-interfaces-16.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d38b1e14845e7aaf8f6a7181c526963e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d38b1e14845e7aaf8f6a7181c526963e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37b99f20d9015eaf5370a0a763b3e1ae/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37b99f20d9015eaf5370a0a763b3e1ae/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e0ec7bc1a8b2fc495b295e679214ac36/transformed/jetified-activity-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e0ec7bc1a8b2fc495b295e679214ac36/transformed/jetified-activity-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/80cc5ddca2ad4cb13fb6141feedc0753/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/80cc5ddca2ad4cb13fb6141feedc0753/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0b0fc15bd7c821e08b0c79f22e0b66e1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0b0fc15bd7c821e08b0c79f22e0b66e1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cc550f199c98818a146b1512e4d58498/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cc550f199c98818a146b1512e4d58498/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/167e88f76a6b9483ea09cedaf04998e4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/167e88f76a6b9483ea09cedaf04998e4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37fa83ab367b31502b67be529566ae1c/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37fa83ab367b31502b67be529566ae1c/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2e8e7464e8f73e381da3d0a47ac50b50/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2e8e7464e8f73e381da3d0a47ac50b50/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/726b3f438765afc4787c59adfa80ddfa/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/726b3f438765afc4787c59adfa80ddfa/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e0c4ce2ef71e613cd2ca6b2c7f78e257/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e0c4ce2ef71e613cd2ca6b2c7f78e257/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7017dfd7b9d5e1366780bfbdb70f239a/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7017dfd7b9d5e1366780bfbdb70f239a/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/59c28cf1e76e0f1fbe1109b1af3d8921/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/59c28cf1e76e0f1fbe1109b1af3d8921/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e77c11d37c0aaef255d5efb2818777cb/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e77c11d37c0aaef255d5efb2818777cb/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9f736eeb593d27035b4d9aa9d80a0c22/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9f736eeb593d27035b4d9aa9d80a0c22/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f2b845d4dcf91afedb7da23ea73b1e75/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f2b845d4dcf91afedb7da23ea73b1e75/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/14c8f34ff6e335c689d05a0702efa8b9/transformed/jetified-navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/14c8f34ff6e335c689d05a0702efa8b9/transformed/jetified-navigationevent/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e47371c91db5fa01c73c877e14db4b90/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e47371c91db5fa01c73c877e14db4b90/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a3095a734205fb0ab3d68261f65dec0f/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a3095a734205fb0ab3d68261f65dec0f/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/209ace6cd5ccc537781d5627908f9c6a/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/209ace6cd5ccc537781d5627908f9c6a/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7d405284b16628e89918efc4e8cf260a/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7d405284b16628e89918efc4e8cf260a/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2da36eb7c197b2e97c4e4ed63c1ef98a/transformed/jetified-ads-adservices-java-1.1.0-beta11/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2da36eb7c197b2e97c4e4ed63c1ef98a/transformed/jetified-ads-adservices-java-1.1.0-beta11/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/102ef6d79ad09f85ab850549afce3a9d/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/102ef6d79ad09f85ab850549afce3a9d/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c696d03925bbe41d0474f43b5628434/transformed/jetified-firebase-installations-interop-17.3.0/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c696d03925bbe41d0474f43b5628434/transformed/jetified-firebase-installations-interop-17.3.0/AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b6f756b0c0aafece93f655f047d24a44/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b6f756b0c0aafece93f655f047d24a44/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d0e08b9cbcca67aec87e33f48834cd79/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d0e08b9cbcca67aec87e33f48834cd79/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d15a4a60274690ecbf49c90c3e11a72/transformed/jetified-play-services-measurement-base-23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d15a4a60274690ecbf49c90c3e11a72/transformed/jetified-play-services-measurement-base-23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6c9685bed3fb80fd98990b50fdb77a5f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6c9685bed3fb80fd98990b50fdb77a5f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c3f04dda49799e87878dec947222d514/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c3f04dda49799e87878dec947222d514/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/ad492e6b5a269f57ce9ea768766e4861/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/ad492e6b5a269f57ce9ea768766e4861/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.13.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bd6df05b192dca0f81fb01f2a42b616c/transformed/jetified-activity-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.13.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bd6df05b192dca0f81fb01f2a42b616c/transformed/jetified-activity-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/df748ba05d95d7cd7534739969b2c46f/transformed/jetified-core-ktx-1.18.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/df748ba05d95d7cd7534739969b2c46f/transformed/jetified-core-ktx-1.18.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cfcd81bc40514244cbf4b9628afaff5d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cfcd81bc40514244cbf4b9628afaff5d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e44602cf271181346774c5cd716e8b6e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e44602cf271181346774c5cd716e8b6e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f107d6a7961d0557f30c96e93e5ad727/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f107d6a7961d0557f30c96e93e5ad727/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1b073e3e880106e72651a80113715238/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1b073e3e880106e72651a80113715238/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e153853d74be50eae1432334c1ae4118/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e153853d74be50eae1432334c1ae4118/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8d5d8f713d2d32934e3a8ed114dd70c5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8d5d8f713d2d32934e3a8ed114dd70c5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/77a3f1575e7b312343ca9289b97351fc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/77a3f1575e7b312343ca9289b97351fc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/85537b504d7db8f09245985da87d1852/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/85537b504d7db8f09245985da87d1852/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/4c7649c73d23c95b5e5dadab58229d7b/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/4c7649c73d23c95b5e5dadab58229d7b/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.4.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/342ec6b5c30000f498728216da0df861/transformed/exifinterface-1.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.4.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/342ec6b5c30000f498728216da0df861/transformed/exifinterface-1.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2d80cfe52e501553cdd49bdee1a4a03/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2d80cfe52e501553cdd49bdee1a4a03/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/76675d77585d769268dfc6dcd9ba86c0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/76675d77585d769268dfc6dcd9ba86c0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0578b0b7a71fdc335058a8ae85746904/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0578b0b7a71fdc335058a8ae85746904/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c9e65b12c8d8774de2925ff8ddba809f/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c9e65b12c8d8774de2925ff8ddba809f/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-config-interop:16.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bd54b999a208aa32053712e50a5ac434/transformed/jetified-firebase-config-interop-16.0.1/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-config-interop:16.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bd54b999a208aa32053712e50a5ac434/transformed/jetified-firebase-config-interop-16.0.1/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e97d9d4f4dccf6c2030b5ec731a13882/transformed/jetified-firebase-encoders-json-18.0.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/e97d9d4f4dccf6c2030b5ec731a13882/transformed/jetified-firebase-encoders-json-18.0.1/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/65790458ec97fad434c341d6470b975d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/65790458ec97fad434c341d6470b975d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-backported-fixes:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/274ea9fd2778a4d04d89a8ccbbb85588/transformed/jetified-core-backported-fixes-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-backported-fixes:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/274ea9fd2778a4d04d89a8ccbbb85588/transformed/jetified-core-backported-fixes-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bc6356e009f0d7c6f742b22e17c1d3be/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bc6356e009f0d7c6f742b22e17c1d3be/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a8f233d60159c24c8c775dd85364c344/transformed/jetified-firebase-components-19.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a8f233d60159c24c8c775dd85364c344/transformed/jetified-firebase-components-19.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8a89c37b2baf53993aace2924fa0a518/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8a89c37b2baf53993aace2924fa0a518/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.camera.featurecombinationquery:featurecombinationquery:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/42a80111059a7604b598e99b5be27d64/transformed/jetified-featurecombinationquery-1.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera.featurecombinationquery:featurecombinationquery:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/42a80111059a7604b598e99b5be27d64/transformed/jetified-featurecombinationquery-1.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f5b00b12f5794581d4df1fc7dcd97c07/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f5b00b12f5794581d4df1fc7dcd97c07/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0783b9e4ee83d2298b249ab8cb250915/transformed/jetified-tracing-ktx-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0783b9e4ee83d2298b249ab8cb250915/transformed/jetified-tracing-ktx-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-android:1.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6e8d2152402ccdaae53a38511883f223/transformed/jetified-tracing/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-android:1.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6e8d2152402ccdaae53a38511883f223/transformed/jetified-tracing/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5e03df6762559b0d784b66a31794fba9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/5e03df6762559b0d784b66a31794fba9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a486ca47c17f3a3f77cae989d788ba2e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a486ca47c17f3a3f77cae989d788ba2e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37ea8538cbbd3ddb143ce0f7d93d4fc6/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/37ea8538cbbd3ddb143ce0f7d93d4fc6/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8fb892304db4f6d4930b789218732b9c/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8fb892304db4f6d4930b789218732b9c/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9ddd37b0314bca02541fea2368136e81/transformed/jetified-runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/9ddd37b0314bca02541fea2368136e81/transformed/jetified-runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [com.github.Yalantis:ucrop:2.2.11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2faf0747a27b9a417c49c11cfdbdd9a9/transformed/jetified-ucrop-2.2.11/AndroidManifest.xml:5:5-44
+MERGED from [com.github.Yalantis:ucrop:2.2.11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2faf0747a27b9a417c49c11cfdbdd9a9/transformed/jetified-ucrop-2.2.11/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f947cba3184b338e96ec3af05da65465/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/dreamworld/.gradle/caches/9.3.1/transforms/f947cba3184b338e96ec3af05da65465/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/382c9e8d1e71c594c24a8670b07d4cb3/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/382c9e8d1e71c594c24a8670b07d4cb3/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/AndroidManifest.xml
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-72
+	android:name
+		ADDED from [:file_picker] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:21-69
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:11:9-15:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:11:9-15:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_remote_config] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_remote_config/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:17-139
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/firebase_core/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-17:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-31:19
+	android:enabled
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-36
+	android:exported
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-40
+	android:name
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-26:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-94
+	android:name
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-30:36
+	android:value
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-33
+	android:name
+		ADDED from [:image_picker_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:17-63
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:22-72
+provider#com.crazecoder.openfile.FileProvider
+ADDED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:9-25:20
+	android:grantUriPermissions
+		ADDED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-47
+	android:authorities
+		ADDED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-88
+	android:exported
+		ADDED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:13-37
+	tools:replace
+		ADDED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-48
+	android:name
+		ADDED from [:open_filex] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/open_filex/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-64
+provider#net.nfet.flutter.printing.PrintFileProvider
+ADDED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-68
+	android:exported
+		ADDED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:printing] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-71
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-74
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:24:9-33:19
+	android:enabled
+		ADDED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:31:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:32:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:33:13-75
+	android:name
+		ADDED from [androidx.camera:camera-core:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/1d14d69e198e6c2db3be7cd896c9b111/transformed/jetified-camera-core-1.6.1/AndroidManifest.xml:30:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.6.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/bbeab2d76469e03c2f092f8e3a408ece/transformed/jetified-camera-camera2-1.6.1/AndroidManifest.xml:31:17-103
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/84e9d70631a3750d14bafb7fd450b664/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/b2504a56427ab4b379c6d388eb1dce8b/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/555316302f00092c4212f379b9f38c15/transformed/jetified-common-18.11.0/AndroidManifest.xml:21:17-120
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/769847f32c2f6cbcfa0d8a31a023098a/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c1bb72cd9aa6eafb01f6068b5b284812/transformed/jetified-play-services-measurement-23.2.0/AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d0e08b9cbcca67aec87e33f48834cd79/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d0e08b9cbcca67aec87e33f48834cd79/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-impl:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/cf3991ad00b47e960b58d94a8d537a2b/transformed/jetified-play-services-measurement-impl-23.2.0/AndroidManifest.xml:27:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/0dcdebdc81561e3db812660cd9320524/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar
+ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:30:17-128
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c13c76ed01883bf037614ddf3fc2cf0/transformed/jetified-firebase-config-23.1.0/AndroidManifest.xml:33:17-117
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d8d82eabf8cf13255e80372068dc4712/transformed/jetified-play-services-measurement-sdk-api-23.2.0/AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:27:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/38c1f92e5e17ed6c43845b26756dea32/transformed/jetified-play-services-measurement-api-23.2.0/AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c69818b45cc0be6df3f6743a142fa694/transformed/jetified-firebase-installations-19.1.2/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/82aaf1bb27ec5aa3e6ed958aec6dd110/transformed/jetified-firebase-common-22.2.1/AndroidManifest.xml:36:17-109
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8a89c37b2baf53993aace2924fa0a518/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/8a89c37b2baf53993aace2924fa0a518/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/af743e3dd0625981687ed5721b4c2c6f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/2d083393d806a4c31fd7e2ae67531c94/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/102ef6d79ad09f85ab850549afce3a9d/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/102ef6d79ad09f85ab850549afce3a9d/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/dreamworld/.gradle/caches/9.3.1/transforms/102ef6d79ad09f85ab850549afce3a9d/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:24:13-50
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/dreamworld/.gradle/caches/9.3.1/transforms/d35a1fc8e9b3d67f61277694cc091ecd/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c3f04dda49799e87878dec947222d514/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c3f04dda49799e87878dec947222d514/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/c3f04dda49799e87878dec947222d514/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+permission#com.app.clothlyn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+uses-permission#com.app.clothlyn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/6270c314bceab581dce09721301e362d/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a9916ec1310aaa2dacdd7de630f82a27/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/dreamworld/.gradle/caches/9.3.1/transforms/7c987c45123dfa435f8b76b9163dd4db/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/dreamworld/.gradle/caches/9.3.1/transforms/a352ef05a020214c994401995e290ec2/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132

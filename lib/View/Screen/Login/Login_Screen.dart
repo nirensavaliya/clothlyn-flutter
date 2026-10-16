@@ -74,7 +74,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 10),
                       Text(
-                        'Sitaram Cloth',
+                        'Clothlyn',
                         style: TextStyle(
                           fontSize: 25,
                           fontFamily: FontFamily.guGi,
@@ -794,7 +794,7 @@ class LoginScreen extends StatelessWidget {
                                 child: Padding(
                                   padding: const EdgeInsets.only(top: 20),
                                   child: Text(
-                                    "Back to Sitaram login",
+                                    "Back to Clothlyn login",
                                     style: TextStyle(
                                       fontFamily: FontFamily.hanKenMedium,
                                       color: AppColors.appBtnColor,

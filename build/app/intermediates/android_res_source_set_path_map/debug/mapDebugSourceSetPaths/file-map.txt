@@ -1,0 +1,7 @@
+com.app.clothlyn.app-debug-0 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/debug/res
+com.app.clothlyn.app-main-1 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/android/app/src/main/res
+com.app.clothlyn.app-pngs-2 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/app/generated/res/pngs/debug
+com.app.clothlyn.app-updated_navigation_xml-3 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/app/generated/updated_navigation_xml/debug
+com.app.clothlyn.app-packageDebugResources-4 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.app.clothlyn.app-packageDebugResources-5 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.app.clothlyn.app-debug-6 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/app/intermediates/merged_res/debug/mergeDebugResources

@@ -1,0 +1,8 @@
+com.prongbang.screen_protector-debug-0 /Users/dreamworld/.pub-cache/hosted/pub.dev/screen_protector-1.5.3/android/src/debug/res
+com.prongbang.screen_protector-main-1 /Users/dreamworld/.pub-cache/hosted/pub.dev/screen_protector-1.5.3/android/src/main/res
+com.prongbang.screen_protector-pngs-2 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/generated/res/pngs/debug
+com.prongbang.screen_protector-updated_navigation_xml-3 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/generated/updated_navigation_xml/debug
+com.prongbang.screen_protector-mergeDebugResources-4 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.prongbang.screen_protector-mergeDebugResources-5 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.prongbang.screen_protector-debug-6 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/intermediates/merged_res/debug/mergeDebugResources
+com.prongbang.screen_protector-debug-7 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/screen_protector/intermediates/packaged_res/debug/packageDebugResources

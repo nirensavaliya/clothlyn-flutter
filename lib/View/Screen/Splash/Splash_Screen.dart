@@ -41,12 +41,12 @@ class SplashScreen extends StatelessWidget {
                   const _AnimatedSplashRings(),
                   const SizedBox(height: 22),
                   Text(
-                    'Sitaram Cloth',
+                    'CLOTHLYN',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontFamily: FontFamily.guGi,
                       fontSize: 30,
-                      fontWeight: FontWeight.w700,
+                      fontWeight: FontWeight.w400,
                       color: AppColors.titleColor,
                       letterSpacing: 0.2,
                       height: 1.2,

@@ -1,0 +1,8 @@
+net.nfet.flutter.printing-debug-0 /Users/dreamworld/.pub-cache/hosted/pub.dev/printing-5.15.1/android/src/debug/res
+net.nfet.flutter.printing-main-1 /Users/dreamworld/.pub-cache/hosted/pub.dev/printing-5.15.1/android/src/main/res
+net.nfet.flutter.printing-pngs-2 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/generated/res/pngs/debug
+net.nfet.flutter.printing-updated_navigation_xml-3 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/generated/updated_navigation_xml/debug
+net.nfet.flutter.printing-mergeDebugResources-4 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/incremental/debug/mergeDebugResources/merged.dir
+net.nfet.flutter.printing-mergeDebugResources-5 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+net.nfet.flutter.printing-debug-6 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/merged_res/debug/mergeDebugResources
+net.nfet.flutter.printing-debug-7 /Users/dreamworld/Documents/GitHub/clothlyn-flutter/build/printing/intermediates/packaged_res/debug/packageDebugResources

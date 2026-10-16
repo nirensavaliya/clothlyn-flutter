@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/dreamworld/.pub-cache/hosted/pub.dev/jni-1.1.0/android/.cxx/Debug/s3y2k413/x86_64'
+ninja: no work to do.
